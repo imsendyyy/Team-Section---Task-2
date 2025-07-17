@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-333 {
+    color: #33333399;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.btn-team-contact {
+    background-color: #e9e9e9;
+    width: 100%;
+    transition: all .3s ease-in;
+}
+
+.btn-team-contact:hover {
+    background: dimgrey;
+    color: whitesmoke;
+}
+
+.card-img-top{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.card-img-top:hover{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.bg-darkgray{
+    background-color: #333;
+}
+
+.counter{
+    font-family: monospace;
+    opacity: .7;
+}
+.op-05{
+    opacity: .5;
+}
